@@ -1,0 +1,155 @@
+
+html, body{
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+header, nav, ul{
+    width:100%;
+    height: 6.25rem;
+    
+}
+
+nav:last-child{
+    margin-right: 20px;
+}
+
+.navigation-start, .navigation-middle, .navigation-end{
+    display: flex;
+    list-style: none;
+   
+    
+}
+
+.navigation-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap:1.25rem;
+    padding-left: 1.25rem;
+
+}
+
+.navigation-start li:nth-child(2){
+    font-size: 1.25rem;
+}
+
+.navigation-start li span, .navigation-end li span{
+    font-size: 1.875rem;
+    
+}
+
+
+.navigation-middle{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    gap:1.25rem;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+
+.navigation-middle li{
+    border-bottom: 0.1875rem solid black;
+    
+    
+}
+.navigation-middle li:hover{
+    color:blueviolet;
+    border-bottom: 0.1875rem solid blueviolet;
+}
+
+.navigation-middle li:active{
+    color:blueviolet;
+    border-bottom: 0.1875rem solid blueviolet;
+}
+.navigation-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:1.25rem;
+    
+    
+}
+
+.navigation-end li input[type="submit"]{
+    background-color:rgba(92, 6, 163, 0.815);
+    color: #fff;
+    padding:0.625rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.3125rem;
+}
+
+.navigation-end li span img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+div.container{
+    width: 100%;
+    height: auto;
+    background-color:rgb(216, 209, 209);
+}
+article{
+    width:60%;
+    margin:0 auto;
+    border-radius: 0.3125rem;
+    background-color:rgb(216, 209, 209);
+}
+
+
+section > img{
+    width:100%;
+    border-radius: 0.3125rem;
+    margin-top: 1.25rem;
+}
+
+.paragraph, .question, .attend, .answer, .checked, .restrictions, .email{
+    background-color: #fff;
+    margin-top:1.25rem;
+    padding: 1.25rem;
+    border-radius: 0.3125rem;
+}
+.paragraph{
+    border-left: 0.625rem  solid rgb(37, 136, 250);
+    border-top: 0.625rem solid rgb(97, 75, 196);
+ 
+}
+.paragraph h1{
+    font-weight: normal;
+    font-size: 3.125rem;
+}
+.question{
+    border-left:0.625rem  solid rgb(37, 136, 250) ;
+    
+}
+
+.question p, .answer p, .checked p{
+    padding-bottom: 0.625rem;
+    font-weight: 0.625rem;
+}
+:required, .answer input[type="text"], .restrictions input[type="text"], .email input[type="email"]{
+    width:50%;
+    border-color: rgb(165, 156, 156);
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.attend{
+    display: flex;
+    flex-direction: column;
+    padding:1.25rem;
+}
+
+.attend p, .attend .radio-one, .attend .radio-two, .checkbox, .restrictions p, .email p{
+    padding-bottom: 1.25rem;
+}
+
